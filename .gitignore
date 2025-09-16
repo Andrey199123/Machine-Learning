@@ -1,7 +1,12 @@
 # OS/editor
 .DS_Store
 Thumbs.db
+.bash_logout
 *.log
+.bashrc
+.lesshst
+.profile
+
 
 # Python
 __pycache__/
