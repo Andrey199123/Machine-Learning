@@ -1,0 +1,27 @@
+{
+  "target": "SoldPrice",
+  "log_target": true,
+  "chosen_model": "RF_tuned_log",
+  "best_params": {
+    "m__max_depth": 10,
+    "m__max_features": 0.7,
+    "m__min_samples_leaf": 3,
+    "m__min_samples_split": 17,
+    "m__n_estimators": 642
+  },
+  "metrics_table": [
+    {
+      "model": "RF_tuned_log",
+      "MAE": 569859.9298148289,
+      "R2": 0.5874315148571845
+    }
+  ],
+  "dropped_cols": [
+    "Address",
+    "ListPrice",
+    "ListingPrice",
+    "PricePerSqFt",
+    "SoldPrice",
+    "price_per_sqft"
+  ]
+}
