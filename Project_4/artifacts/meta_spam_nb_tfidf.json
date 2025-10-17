@@ -1,0 +1,1 @@
+{"inputs": ["subject", "body"], "class_names": {"0": "ham", "1": "spam"}, "notes": "TFIDF + MultinomialNB text pipeline"}
