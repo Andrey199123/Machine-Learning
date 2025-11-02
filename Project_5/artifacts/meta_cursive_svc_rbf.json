@@ -1,0 +1,38 @@
+{
+  "classes": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z"
+  ],
+  "feature": "HOG 64x64, 9 bins, 8x8 cell, 2x2 block",
+  "preprocess": "deskew + morph open + resize 64",
+  "augment": "rot [-7,7] deg, shifts [-2,2] px, 2x per sample",
+  "model": "SVC RBF",
+  "best_params": {
+    "svc__C": 21.368329072358772,
+    "svc__gamma": 0.0004335281794951569
+  }
+}

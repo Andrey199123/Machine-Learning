@@ -1,0 +1,38 @@
+{
+  "classes": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z"
+  ],
+  "image_size": [
+    25,
+    25
+  ],
+  "feature_scale": "0..1 per pixel",
+  "preprocess": "Pillow L mode resize to 25x25 flatten",
+  "model": "StandardScaler + LogisticRegressionCV(lbfgs, L2)",
+  "best_C": 2.0
+}

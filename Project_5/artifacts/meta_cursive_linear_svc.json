@@ -1,0 +1,37 @@
+{
+  "classes": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z"
+  ],
+  "feature": "HOG 64x64, 9 bins, 8x8 cell, 2x2 block, L2-Hys",
+  "preprocess": "autocontrast, invert-if-dark, resize 64",
+  "model": "LinearSVC",
+  "best_params": {
+    "C": 0.1,
+    "class_weight": "balanced"
+  }
+}
