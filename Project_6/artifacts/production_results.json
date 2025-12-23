@@ -1,0 +1,18 @@
+{
+  "avg_pieces": 8076.0,
+  "avg_lines": 3496.0,
+  "avg_duration": 244.80799651145935,
+  "max_pieces": 8076,
+  "max_lines": 3496,
+  "min_pieces": 8076,
+  "min_lines": 3496,
+  "games_played": 1,
+  "speed": 0.01,
+  "all_results": [
+    {
+      "pieces": 8076,
+      "lines": 3496,
+      "duration": 244.80799651145935
+    }
+  ]
+}

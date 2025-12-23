@@ -1,0 +1,184 @@
+# Big envs / data / checkpoints
+Project_7/wiki-env/
+Project_7/extracted_eos/
+Project_7/mediawiki_data/
+Project_7/ruwiki_data/
+Project_5/
+
+# Any directory named extracted
+extracted/
+**/extracted/
+
+# Large/binary artifacts
+*.bin
+*.pt
+*.safetensors
+*.pack
+
+# All text datasets/logs you don't want tracked
+*.txt
+# =========================
+# Project_7: environments
+# =========================
+Project_7/wiki-env/
+Project_7/.venv/
+Project_7/.env/
+
+# =========================
+# Project_7: experiment logs
+# =========================
+Project_7/mlruns/
+
+# =========================
+# Project_7: binary datasets & caches
+# =========================
+Project_7/**/*.bin
+Project_7/**/*.npz
+Project_7/**/*.npy
+Project_7/**/*.pt
+Project_7/**/*.safetensors
+
+# If you want to keep ONLY code/config in nested Project_7/Project_7:
+Project_7/Project_7/**
+!Project_7/Project_7/**/*.py
+!Project_7/Project_7/**/*.ipynb
+!Project_7/Project_7/**/*.sh
+!Project_7/Project_7/**/*.md
+!Project_7/Project_7/**/*.txt
+!Project_7/Project_7/**/README*
+!Project_7/Project_7/**/requirements*.txt
+
+# Storyteller data & caches (big)
+Project_7/storyteller/src/storyteller/data/
+Project_7/storyteller/src/storyteller/checkpoints/
+Project_7/Project_7/storyteller/src/storyteller/data/
+Project_7/Project_7/storyteller/checkpoints/
+# =========================
+# Project_7: ignore heavy stuff
+# =========================
+
+# Raw dumps / extracted wiki
+Project_7/extracted*/
+Project_7/extracted_eos/
+Project_7/**/wiki_*
+Project_7/**/bm25_index*.pkl
+
+# Binary datasets & tokenized bins
+Project_7/**/*.bin
+Project_7/**/*.npz
+Project_7/**/*.npy
+
+# Model checkpoints / weights
+Project_7/**/*.pt
+Project_7/**/*.pth
+Project_7/**/checkpoints/
+Project_7/**/ckpt*/
+Project_7/**/models/
+
+# Logs, wandb, misc run output
+Project_7/log/
+Project_7/**/wandb/
+Project_7/**/runs/
+Project_7/**/events.out.tfevents.*
+
+# Python cruft / envs
+Project_7/**/__pycache__/
+Project_7/.venv/
+Project_7/.env/
+
+# If you want to be ultra strict and only keep code & configs:
+# Ignore everything under Project_7...
+Project_7/**
+# ...except these patterns (negate rules MUST come after the ignore)
+!Project_7/**/*.py
+!Project_7/**/*.ipynb
+!Project_7/**/*.sh
+!Project_7/**/*.md
+!Project_7/**/*.txt
+!Project_7/**/requirements*.txt
+!Project_7/**/README*
+# --- Big Project_7 data dirs (never commit) ---
+Project_7/extracted/
+Project_7/ruwiki/
+Project_7/wiki-env/
+# === Large training data ===
+build-nanogpt/data/mediawiki_bpe/train.bin
+build-nanogpt/data/mediawiki_bpe/val.bin
+
+# If you have other big bins elsewhere, ignore them too:
+*.bin
+
+# But explicitly KEEP the tokenizer & small metadata
+!build-nanogpt/data/mediawiki_bpe/tokenizer.json
+!build-nanogpt/data/mediawiki_bpe/meta.pkl
+
+# === Checkpoints & logs ===
+build-nanogpt/log/
+build-nanogpt/checkpoints/
+**/checkpoints/
+**/log/
+
+# Big model weights
+*.pt
+*.pth
+
+# Other binary blobs
+*.npz
+*.npy
+*.pkl
+# --- Python / notebook noise ---
+**/__pycache__/
+**/.ipynb_checkpoints/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+
+# --- Large training artifacts (checkpoints, bins) ---
+Project_7/checkpoints_v2/
+Project_7/**/*.pt
+Project_7/**/*.bin
+#######################################
+# Large / training artifacts (global)
+#######################################
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+
+# Binary datasets
+*.bin
+*.npz
+*.npy
+*.pkl
+
+# Logs / text dumps
+*.log
+*.txt
+
+# Common training dirs
+log/
+logs/
+checkpoints/
+checkpoints*/
+**/log/
+**/logs/
+**/checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Wikimedia dump data (huge, not needed in repo)
+extracted/
+**/extracted/
+
+# Virtualenv for wiki project
+wiki-env/
+**/wiki-env/
+
+# Wikimedia dump data (huge, not needed in repo)
+extracted/
+**/extracted/
