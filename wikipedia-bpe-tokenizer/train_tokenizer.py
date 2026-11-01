@@ -9,8 +9,8 @@ Train a Byte-Level BPE tokenizer on the MediaWiki dataset.
 Example usage:
 
     python train_tokenizer.py \
-        --data-root  ~/Project_7/extracted \
-        --output-dir ~/Project_7/tokenizer_bpe \
+        --data-root  ~/wikipedia-bpe-tokenizer/extracted \
+        --output-dir ~/wikipedia-bpe-tokenizer/tokenizer_bpe \
         --vocab-size 50257 \
         --min-frequency 2
 """
@@ -108,8 +108,8 @@ def train_bpe_tokenizer(
 
 def parse_args() -> argparse.Namespace:
     home = Path(os.path.expanduser("~"))
-    default_data_root = home / "Project_7" / "extracted"
-    default_output_dir = home / "Project_7" / "tokenizer_bpe"
+    default_data_root = home / "wikipedia-bpe-tokenizer" / "extracted"
+    default_output_dir = home / "wikipedia-bpe-tokenizer" / "tokenizer_bpe"
 
     parser = argparse.ArgumentParser(
         description="Train a Byte-Level BPE tokenizer on MediaWiki text files."

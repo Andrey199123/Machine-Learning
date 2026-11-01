@@ -6,12 +6,12 @@ These notebooks document problem framing, data preparation, model comparison, an
 
 ## Explore
 
-- [Project 1](Project_1/Project_1.ipynb): an initial email spam-classification workflow.
-- [Project 2](Project_2/Project_2.ipynb): housing-price regression, preprocessing, leakage-aware feature selection, and random-forest tuning.
-- [Project 3](Project_3/Project_3.ipynb): customer-outcome classification considering purchases and returns.
-- [Project 4](Project_4/Project_4.ipynb): further email classification, text cleaning, and engineered features.
-- [Project 6](Project_6/Project_6.ipynb): Tetris game-playing experiments using a provided game framework.
-- [Project 7](Project_7/): text extraction, tokenizer training, and train/test preparation scripts.
+- [Email spam classification](email-spam-classification/Project_1.ipynb): an initial workflow for separating spam from legitimate email.
+- [San Francisco housing price prediction](san-francisco-housing-price-prediction/Project_2.ipynb): data preparation, leakage-aware feature selection, and random-forest regression.
+- [Customer purchase and return classification](customer-purchase-return-classification/Project_3.ipynb): classification across purchase, return, and non-purchase outcomes.
+- [Email feature classification](email-feature-classification/Project_4.ipynb): text cleaning and engineered features for spam classification.
+- [Tetris game playing](tetris-game-playing/Project_6.ipynb): experiments with a provided game framework.
+- [Wikipedia BPE tokenizer](wikipedia-bpe-tokenizer/): text extraction, tokenizer training, and train/test preparation scripts.
 
 ## Reading and reproducing
 

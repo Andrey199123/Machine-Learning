@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Paths (adjust if needed)
-PROJECT_ROOT="$HOME/Project_7"
+PROJECT_ROOT="$HOME/wikipedia-bpe-tokenizer"
 DUMP_DIR="$PROJECT_ROOT/ruwiki"
 DUMP_BZ2="$DUMP_DIR/ruwiki-latest-pages-articles.xml.bz2"
 DUMP_XML="$DUMP_DIR/ruwiki-latest-pages-articles.xml"
