@@ -12,7 +12,7 @@ These notebooks document problem framing, data preparation, model comparison, an
 - [Email feature classification](email-features/Project_4.ipynb): text cleaning and engineered features for spam classification.
 - [Tetris game playing](tetris-ai/Project_6.ipynb): experiments with a provided game framework.
 
-![Tetris player mode](tetris-ai/assets/tetris-player.gif)
+![Trained Tetris agent](tetris-ai/assets/tetris-trained-agent.gif)
 - [Wikipedia BPE tokenizer](bpe-tokenizer/): text extraction, tokenizer training, and train/test preparation scripts.
 
 ## Reading and reproducing
