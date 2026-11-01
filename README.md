@@ -11,6 +11,8 @@ These notebooks document problem framing, data preparation, model comparison, an
 - [Customer purchase and return classification](customer-outcomes/Project_3.ipynb): classification across purchase, return, and non-purchase outcomes.
 - [Email feature classification](email-features/Project_4.ipynb): text cleaning and engineered features for spam classification.
 - [Tetris game playing](tetris-ai/Project_6.ipynb): experiments with a provided game framework.
+
+![Tetris player mode](tetris-ai/assets/tetris-player.gif)
 - [Wikipedia BPE tokenizer](bpe-tokenizer/): text extraction, tokenizer training, and train/test preparation scripts.
 
 ## Reading and reproducing
