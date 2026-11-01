@@ -2,15 +2,15 @@
 """
 Train a Byte-Level BPE tokenizer on the MediaWiki dataset.
 
-- Scans all wiki_* or *.txt files under:  ~/wikipedia-bpe-tokenizer/extracted  (recursively)
+- Scans all wiki_* or *.txt files under:  ~/bpe-tokenizer/extracted  (recursively)
 - Trains a BPE tokenizer using HuggingFace `tokenizers`
 - Saves tokenizer JSON to:      <output-dir>/tokenizer.json
 
 Example usage:
 
     python train_tokenizer.py \
-        --data-root  ~/wikipedia-bpe-tokenizer/extracted \
-        --output-dir ~/wikipedia-bpe-tokenizer/tokenizer_bpe \
+        --data-root  ~/bpe-tokenizer/extracted \
+        --output-dir ~/bpe-tokenizer/tokenizer_bpe \
         --vocab-size 50257 \
         --min-frequency 2
 """
@@ -108,8 +108,8 @@ def train_bpe_tokenizer(
 
 def parse_args() -> argparse.Namespace:
     home = Path(os.path.expanduser("~"))
-    default_data_root = home / "wikipedia-bpe-tokenizer" / "extracted"
-    default_output_dir = home / "wikipedia-bpe-tokenizer" / "tokenizer_bpe"
+    default_data_root = home / "bpe-tokenizer" / "extracted"
+    default_output_dir = home / "bpe-tokenizer" / "tokenizer_bpe"
 
     parser = argparse.ArgumentParser(
         description="Train a Byte-Level BPE tokenizer on MediaWiki text files."

@@ -31,11 +31,11 @@ os.environ.setdefault("RAYON_NUM_THREADS", str(cpu_count))
 from tokenizers import Tokenizer  # noqa: E402 (import after env vars)
 
 
-# If you run this from ~/wikipedia-bpe-tokenizer, these paths will be correct:
+# If you run this from ~/bpe-tokenizer, these paths will be correct:
 EXTRACTED_DIR = Path("extracted")
 
 # Your trained tokenizer JSON
-TOKENIZER_PATH = Path.home() / "wikipedia-bpe-tokenizer" / "tokenizer_bpe" / "tokenizer.json"
+TOKENIZER_PATH = Path.home() / "bpe-tokenizer" / "tokenizer_bpe" / "tokenizer.json"
 
 OUTPUT_TOKENS = Path("BPE_tokens.txt")
 
