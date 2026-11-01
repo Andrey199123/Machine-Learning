@@ -2,7 +2,7 @@
 """
 Train a Byte-Level BPE tokenizer on the MediaWiki dataset.
 
-- Scans all wiki_* or *.txt files under:  ~/Project_7/extracted  (recursively)
+- Scans all wiki_* or *.txt files under:  ~/wikipedia-bpe-tokenizer/extracted  (recursively)
 - Trains a BPE tokenizer using HuggingFace `tokenizers`
 - Saves tokenizer JSON to:      <output-dir>/tokenizer.json
 
